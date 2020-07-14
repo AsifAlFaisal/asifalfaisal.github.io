@@ -117,8 +117,33 @@
         <div class="container-fluid">
             <div class="row no-gutter">
                 <div class="col-lg-4 col-sm-6">                  
-                    <a href="#galleryModal" class="gallery-box" data-toggle="modal" data-src="./assets/work-experience-1.png" >
-                        <img src="./assets/work-experience-1.png" class="img-responsive" alt="Image 1">
+                    <a href="#workModal" class="gallery-box" data-toggle="modal">
+                        <img src="./assets/work.png" class="img-responsive" alt="Image 1">
+                        <div class="gallery-box-caption">
+                            <div class="gallery-box-content">
+                                <div>
+                                    <i class="icon-lg ion-ios-search"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-sm-6">                    
+                    <a href="#acaModal" class="gallery-box" data-toggle="modal">
+                        <img src="./assets/aca.png" class="img-responsive" alt="Image 2">
+                        <div class="gallery-box-caption">
+                            <div class="gallery-box-content">
+                                <div>
+                                    <i class="icon-lg ion-ios-search"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </a>                    
+                </div>
+				<div class="clearfix hidden-lg"> </div>
+                <div class="col-lg-4 col-sm-6">
+                    <a href="#pyModal" class="gallery-box" data-toggle="modal">
+                        <img src="./assets/py.png" class="img-responsive" alt="Image 3">
                         <div class="gallery-box-caption">
                             <div class="gallery-box-content">
                                 <div>
@@ -129,8 +154,8 @@
                     </a>
                 </div>
                 <div class="col-lg-4 col-sm-6">
-                    <a href="#galleryModal" class="gallery-box" data-toggle="modal" data-src="./assets/academic-1.png">
-                        <img src="./assets/academic-1.png" class="img-responsive" alt="Image 2">
+                    <a href="#rpModal" class="gallery-box" data-toggle="modal">
+                        <img src="./assets/R.png" class="img-responsive" alt="Image 4">
                         <div class="gallery-box-caption">
                             <div class="gallery-box-content">
                                 <div>
@@ -142,8 +167,8 @@
                 </div>
 				<div class="clearfix hidden-lg"> </div>
                 <div class="col-lg-4 col-sm-6">
-                    <a href="#galleryModal" class="gallery-box" data-toggle="modal" data-src="./assets/skillset.jpg">
-                        <img src="./assets/skillset.jpg" class="img-responsive" alt="Image 3">
+                    <a href="#otherModal" class="gallery-box" data-toggle="modal">
+                        <img src="./assets/other.png" class="img-responsive" alt="Image 5">
                         <div class="gallery-box-caption">
                             <div class="gallery-box-content">
                                 <div>
@@ -154,33 +179,8 @@
                     </a>
                 </div>
                 <div class="col-lg-4 col-sm-6">
-                    <a href="#galleryModal" class="gallery-box" data-toggle="modal" data-src="./assets/certificates.png">
-                        <img src="./assets/certificates.png" class="img-responsive" alt="Image 4">
-                        <div class="gallery-box-caption">
-                            <div class="gallery-box-content">
-                                <div>
-                                    <i class="icon-lg ion-ios-search"></i>
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-				<div class="clearfix hidden-lg"> </div>
-                <div class="col-lg-4 col-sm-6">
-                    <a href="#galleryModal" class="gallery-box" data-toggle="modal" data-src="./assets/city.jpg">
-                        <img src="./assets/city.jpg" class="img-responsive" alt="Image 5">
-                        <div class="gallery-box-caption">
-                            <div class="gallery-box-content">
-                                <div>
-                                    <i class="icon-lg ion-ios-search"></i>
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-lg-4 col-sm-6">
-                    <a href="#galleryModal" class="gallery-box" data-toggle="modal" data-src="./assets/acc1.png">
-                        <img src="./assets/acc1.png" class="img-responsive" alt="Image 6">
+                    <a href="#certModal" class="gallery-box" data-toggle="modal">
+                        <img src="./assets/cert.png" class="img-responsive" alt="Image 6">
                         <div class="gallery-box-caption">
                             <div class="gallery-box-content">
                                 <div>
@@ -360,13 +360,81 @@
             <span class="pull-right text-muted small"><a href="http://www.bootstrapzero.com">Landing Zero by BootstrapZero</a> ©2015 Company</span>
         </div>
     </footer>
-    <div id="galleryModal" class="modal fade" tabindex="-1" role="dialog" aria-hidden="true">
+    <div id="workModal" class="modal fade" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-dialog modal-lg">
         <div class="modal-content">
         	<div class="modal-body">
         		<img src="" id="galleryImage" class="img-responsive" />
         		<p>
-        		    <br/>
+                    <br/>
+        		    <button class="btn btn-primary btn-lg center-block" data-dismiss="modal" aria-hidden="true">Close <i class="ion-android-close"></i></button>
+        		</p>
+        	</div>
+        </div>
+        </div>
+    </div>
+    <div id="acaModal" class="modal fade" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+        	<div class="modal-body">
+        		<img src="" id="galleryImage" class="img-responsive" />
+        		<p>
+                    <br/>
+        		    <button class="btn btn-primary btn-lg center-block" data-dismiss="modal" aria-hidden="true">Close <i class="ion-android-close"></i></button>
+        		</p>
+        	</div>
+        </div>
+        </div>
+    </div>
+    <div id="pyModal" class="modal fade" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+        	<div class="modal-body">
+        		<img src="" id="galleryImage" class="img-responsive" />
+        		<p>
+                    <br/>
+                    Python Dude!
+        		    <button class="btn btn-primary btn-lg center-block" data-dismiss="modal" aria-hidden="true">Close <i class="ion-android-close"></i></button>
+        		</p>
+        	</div>
+        </div>
+        </div>
+    </div>
+    <div id="rpModal" class="modal fade" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+        	<div class="modal-body">
+        		<img src="" id="galleryImage" class="img-responsive" />
+        		<p>
+                    <br/>
+                    Python Dude!
+        		    <button class="btn btn-primary btn-lg center-block" data-dismiss="modal" aria-hidden="true">Close <i class="ion-android-close"></i></button>
+        		</p>
+        	</div>
+        </div>
+        </div>
+    </div>
+    <div id="otherModal" class="modal fade" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+        	<div class="modal-body">
+        		<img src="" id="galleryImage" class="img-responsive" />
+        		<p>
+                    <br/>
+                    Other Dude!
+        		    <button class="btn btn-primary btn-lg center-block" data-dismiss="modal" aria-hidden="true">Close <i class="ion-android-close"></i></button>
+        		</p>
+        	</div>
+        </div>
+        </div>
+    </div>
+    <div id="certModal" class="modal fade" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+        	<div class="modal-body">
+        		<img src="" id="galleryImage" class="img-responsive" />
+        		<p>
+                    <br/>
         		    <button class="btn btn-primary btn-lg center-block" data-dismiss="modal" aria-hidden="true">Close <i class="ion-android-close"></i></button>
         		</p>
         	</div>
