@@ -1,360 +1,388 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-        <meta name="description" content="" />
-        <meta name="author" content="" />
-        <title>CV - Asif Al Faisal</title>
-        <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico" />
-        <!-- Font Awesome icons (free version)-->
-        <script src="https://use.fontawesome.com/releases/v5.15.4/js/all.js" crossorigin="anonymous"></script>
-        <!-- Google fonts-->
-        <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet" type="text/css" />
-        <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet" type="text/css" />
-        <!-- Core theme CSS (includes Bootstrap)-->
-        <link href="css/styles.css" rel="stylesheet" />
-    </head>
-    <body id="page-top">
-        <!-- Navigation-->
-        <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
-            <a class="navbar-brand js-scroll-trigger" href="#page-top">
-                <span class="d-block d-lg-none">Asif Al Faisal</span>
-                <span class="d-none d-lg-block"><img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="assets/img/profile.jpg" alt="..." /></span>
-            </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
-            <div class="collapse navbar-collapse" id="navbarResponsive">
-                <ul class="navbar-nav">
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">About</a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#interests">Interests</a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#publications">Publications</a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#education">Education</a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#prof-experience">Professional Experience</a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#res-experience">Research Experience</a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#tea-experience">Teaching Experience</a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#skills">Skills</a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#certification">Certifications</a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#awards">Awards</a></li>
-                    <!--<li class="nav-item"><a class="nav-link js-scroll-trigger" href="assets/img/CV_Asif_2022.pdf" target="_blank">Download Full CV</a></li>-->
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Asif Al Faisal - Portfolio</title>
+    <meta name="description" content="Portfolio of Asif Al Faisal">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <nav id="navbar">
+        <div class="nav-container">
+            <a href="#" class="logo">ASIF</a>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#publications">Publications</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <button id="theme-toggle" aria-label="Toggle Dark Mode">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path class="sun"
+                        d="M12 17a5 5 0 1 0 0-10 5 5 0 0 0 0 10zM12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42" />
+                    <path class="moon" d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z" style="display:none;" />
+                </svg>
+            </button>
+            <div class="menu-toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <header id="hero">
+        <div class="hero-content">
+            <h1>ASIF AL FAISAL</h1>
+            <h2>Lead, Data Science</h2>
+            <p>Building and Leading Enterprise-Scale Intelligent Decision Engines with Data Science, AI, and
+                Optimization.</p>
+            <div class="cta-buttons">
+                <a href="#contact" class="btn primary">Get in Touch</a>
+                <a href="#projects" class="btn secondary">View Work</a>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section id="about" class="fade-in">
+            <div class="container">
+                <h3>About Me</h3>
+                <div class="about-text">
+                    <p>I'm a Data Science Lead at Gildan, where I build and lead teams creating intelligent systems that
+                        help businesses make better decisions - from forecasting supply chain demand to automating
+                        finance and analytics.</p>
+                    <p>What started as an engineering curiosity about how complex systems work has grown into a career
+                        focused on turning messy, real-world data into tools people can actually rely on. Over the
+                        years, I've worked across telecom, agriculture, and manufacturing, using everything from machine
+                        learning and optimization to geospatial data and modern AI.</p>
+                    <p>Today, I focus on building enterprise-scale data and decision systems that bring clarity and
+                        efficiency to complex business operations, helping organizations make faster, smarter decisions.
+                    </p>
+                </div>
+                <div class="education-grid">
+                    <div class="edu-item">
+                        <h4>M.Sc. Information Technology</h4>
+                        <span>University of Dhaka<br>Bangladesh</span>
+                        <span>Session: January 2017 - October 2018</span>
+                    </div>
+                    <div class="edu-item">
+                        <h4>B.Sc. Electrical & Electronic Engineering</h4>
+                        <span>Khulna University of Engineering & Technology<br>Bangladesh</span>
+                        <span>Session: April 2010 - November 2014</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="experience" class="fade-in">
+            <div class="container">
+                <h3>Experience</h3>
+                <div class="timeline">
+                    <!-- GILDAN Lead -->
+                    <div class="timeline-item">
+                        <div class="timeline-date">Apr 2025 - Present</div>
+                        <div class="timeline-content">
+                            <h4>Lead, Data Science</h4>
+                            <h5>GILDAN, Dhaka</h5>
+
+                            <div class="role-category">
+                                <h6>Development & Technical Execution</h6>
+                                <ul>
+                                    <li>Built hierarchical time series forecasting models for spare parts consumption
+                                        and inventory transfer optimization across plants.</li>
+                                    <li>Led full-stack development of the Supply Chain AI Agent over Snowflake data.
+                                    </li>
+                                    <li>Developed large-scale ETL pipelines to ingest customer POS data from multiple
+                                        sources into Snowflake.</li>
+                                    <li>Leading design of AI Agents for Investor Relations competitiveness analysis
+                                        using Microsoft Copilot Studio.</li>
+                                </ul>
+                            </div>
+
+                            <div class="role-category">
+                                <h6>Leadership & Project Management</h6>
+                                <ul>
+                                    <li>Leading a cross-functional team of 2 Data Scientists and 1 BI Analyst.</li>
+                                    <li>Leading the development of an Accounts Payable Invoice AI Agent, cutting manual
+                                        lookup time by 60%.</li>
+                                    <li>Leading the AI Agents for the Supply Chain team using Snowflake Cortex Agents.
+                                    </li>
+                                    <li>Supervising BI Analysts and assigning maintenance tasks across the team.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- GILDAN Data Scientist -->
+                    <div class="timeline-item">
+                        <div class="timeline-date">Dec 2023 - Mar 2025</div>
+                        <div class="timeline-content">
+                            <h4>Data Scientist</h4>
+                            <h5>GILDAN, Dhaka</h5>
+
+                            <div class="role-category">
+                                <h6>Development & Technical Execution</h6>
+                                <ul>
+                                    <li>Created predictive ML models for dyeing batch redyeing needs.</li>
+                                    <li>Developed RAG chatbots using GPT-4o and Snowflake Cortex for HR and Dyeing
+                                        teams.</li>
+                                    <li>Streamlined spinning machine data pipelines for real-time analytics.</li>
+                                    <li>Maintained and optimized a dyeing process optimization tool.</li>
+                                </ul>
+                            </div>
+
+                            <div class="role-category">
+                                <h6>Leadership & Project Management</h6>
+                                <ul>
+                                    <li>Led development of Azure OpenAI-powered analytics chatbot.</li>
+                                    <li>Facilitated technical communication between Business Teams and Data Science
+                                        units.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- CIMMYT -->
+                    <div class="timeline-item">
+                        <div class="timeline-date">Aug 2019 - Dec 2023</div>
+                        <div class="timeline-content">
+                            <h4>Data Analyst</h4>
+                            <h5>CIMMYT, Dhaka</h5>
+
+                            <div class="role-category">
+                                <h6>Development & Technical Execution</h6>
+                                <ul>
+                                    <li>Designed NLP-based ETL tools for the ARRCC program.</li>
+                                    <li>Developed algorithms for agricultural transport network optimization (TSP).</li>
+                                    <li>Implemented remote sensing ETL workflows for agro-climatic modeling.</li>
+                                    <li>Built interactive R-based visualizations and Streamlit dashboards.</li>
+                                </ul>
+                            </div>
+
+                            <div class="role-category">
+                                <h6>Leadership & Project Management</h6>
+                                <ul>
+                                    <li>Led ETL design for the TAFSSA initiative, converting census data to geospatial
+                                        formats.</li>
+                                    <li>Coordinated collaboration between data scientists, agronomists, and regional
+                                        analysts.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- ECHO Center -->
+                    <div class="timeline-item">
+                        <div class="timeline-date">Aug 2015 - Aug 2019</div>
+                        <div class="timeline-content">
+                            <h4>Engineer</h4>
+                            <h5>ECHO Center - edotco, Dhaka</h5>
+
+                            <div class="role-category">
+                                <h6>Development & Technical Execution</h6>
+                                <ul>
+                                    <li>Automated ETL processes for power data using SQL and Power BI.</li>
+                                    <li>Co-developed Python-based RPA Telegram bot for workflows.</li>
+                                    <li>Implemented data-driven tools for power performance monitoring.</li>
+                                </ul>
+                            </div>
+
+                            <div class="role-category">
+                                <h6>Leadership & Project Management</h6>
+                                <ul>
+                                    <li>Managed a team of four network engineers.</li>
+                                    <li>Coordinated cross-functional troubleshooting for major mobile network operators.
+                                    </li>
+                                    <li>Prepared analytical reports for senior management driving efficiency.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="fade-in">
+            <div class="container">
+                <h3>Projects & Research</h3>
+                <div class="project-grid">
+                    <div class="project-card">
+                        <h4>Supply Chain AI Chatbot</h4>
+                        <p>GPT-4o and LlamaIndex-powered chatbot for advanced analytics on supply chain datasets.</p>
+                        <div class="tags">
+                            <span>Python</span><span>Azure OpenAI</span><span>Snowflake</span><span>Streamlit</span>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <h4>RAG LLM Assistant</h4>
+                        <p>Development of a Retrieval Augmented Generation based LLM assistant using Llama3.</p>
+                        <div class="tags">
+                            <span>Python</span><span>Llama3</span><span>Snowflake-cortex</span>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <h4>Crop Disease Epidemiology Tool</h4>
+                        <p>Web data-mining and NLP tool for tracking crop diseases.</p>
+                        <div class="tags">
+                            <span>Python</span><span>NLTK</span><span>Plotly-Dash</span>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <h4>Agri-Transport Optimization</h4>
+                        <p>Logistic tool for optimization of transport networks in the agriculture domain.</p>
+                        <div class="tags">
+                            <span>Python</span><span>GCP</span><span>NetworkX</span>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <h4>Field Boundary Detection</h4>
+                        <p>Using Holistically-Nested Edge Detection (HED) on airborne images.</p>
+                        <div class="tags">
+                            <span>PyTorch</span><span>GDAL</span><span>OpenCV</span>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <h4>Chemical Property Prediction</h4>
+                        <p>Physicochemical properties prediction with Hybrid-GICN.</p>
+                        <div class="tags">
+                            <span>PyTorch Geometric</span><span>RDKit</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" class="fade-in">
+            <div class="container">
+                <h3>Technical Skills</h3>
+                <div class="skills-wrapper">
+                    <div class="skill-category">
+                        <h4>Languages</h4>
+                        <p>Python, R</p>
+                    </div>
+                    <div class="skill-category">
+                        <h4>Big Data</h4>
+                        <p>PySpark, Snowpark</p>
+                    </div>
+                    <div class="skill-category">
+                        <h4>ML & Data Science</h4>
+                        <p>Scikit-learn, PyTorch, LlamaIndex, MLFlow</p>
+                    </div>
+                    <div class="skill-category">
+                        <h4>AI Agent Tools</h4>
+                        <p>Snowflake Cortex, Microsoft Copilot Studio, n8n</p>
+                    </div>
+                    <div class="skill-category">
+                        <h4>Databases</h4>
+                        <p>Snowflake, PostgreSQL, MySQL, Neo4J</p>
+                    </div>
+                    <div class="skill-category">
+                        <h4>Geospatial</h4>
+                        <p>Google Earth Engine, QGIS, GDAL</p>
+                    </div>
+                    <div class="skill-category">
+                        <h4>Cloud</h4>
+                        <p>Azure, Databricks</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="publications" class="fade-in">
+            <div class="container">
+                <h3>Selected Publications</h3>
+                <ul class="pub-list">
+                    <li>
+                        <div class="pub-header">
+                            <strong>Advancing crop disease early warning in South Asia by complementing expert surveys
+                                with internet media scraping</strong>
+                            <a href="https://rmets.onlinelibrary.wiley.com/doi/full/10.1002/cli2.78" class="pub-link"
+                                target="_blank">[Link]</a>
+                        </div>
+                        <p class="pub-authors">Smith, J.W., <strong>Faisal, A.A.</strong>, Hodson, D., Baidya, S.,
+                            Bhatta, M., Thapa, D. et al.</p>
+                        <p class="pub-journal">Climate Resilience and Sustainability, 3, e78. (2024)</p>
+                    </li>
+                    <li>
+                        <div class="pub-header">
+                            <strong>The optimization of conservation agriculture practices requires attention to
+                                location-specific performance: evidence from large scale gridded simulations across
+                                south asia</strong>
+                            <a href="https://www.sciencedirect.com/science/article/pii/S037842902200079X"
+                                class="pub-link" target="_blank">[Link]</a>
+                        </div>
+                        <p class="pub-authors">Zhang, T., Xiong, W., Sapkota, T., Jat, M., Montes, C., Krupnik, T., Jat,
+                            R., Karki, S., Nayak, H., <strong>Al Faisal, A.</strong>, Jat, H.</p>
+                        <p class="pub-journal">Field Crops Research, Elsevier (2022)</p>
+                    </li>
+                    <li>
+                        <div class="pub-header">
+                            <strong>Climates' dual grip: Mapping upper and lower bounds for thermal stress risk for
+                                rice, wheat, and maize in Bangladesh</strong>
+                            <a href="https://scholar.google.com.mx/scholar?oi=bibs&cluster=14896061365670738076&btnI=1&hl=en"
+                                class="pub-link" target="_blank">[Link]</a>
+                        </div>
+                        <p class="pub-authors">Hussain, S., Hasan, M., <strong>Faisal, Asif</strong>, Shahriar, Saleh,
+                            Billah, Mu'tasim, Faisal, Md, Montes, Carlo, Timsina, Jagadish, Krupnik, Timothy.</p>
+                        <p class="pub-journal">Technical Report (2023)</p>
+                    </li>
+                    <li>
+                        <div class="pub-header">
+                            <strong>Personality detection from text using convolutional neural network</strong>
+                            <a href="https://ieeexplore.ieee.org/abstract/document/8934548" class="pub-link"
+                                target="_blank">[Link]</a>
+                        </div>
+                        <p class="pub-authors">Rahman, Md. Abdur, <strong>Faisal, Asif Al</strong>, Khanam, Tayeba,
+                            Amjad, Mahfida, Siddik, Md Saeed.</p>
+                        <p class="pub-journal">ICASERT, IEEE (2019)</p>
+                    </li>
+                    <li>
+                        <div class="pub-header">
+                            <strong>Innovative new crowd sourcing tool for gathering crop disease reports developed in
+                                South Asia</strong>
+                            <a href="https://www.metoffice.gov.uk/binaries/content/assets/metofficegovuk/pdf/business/international/arrcc_newsletter_0920.pdf"
+                                class="pub-link" target="_blank">[Link]</a>
+                        </div>
+                        <p class="pub-authors"><strong>Asif Al Faisal</strong></p>
+                        <p class="pub-journal">ARRCC Programme Newsletter (2020)</p>
+                    </li>
                 </ul>
             </div>
-        </nav>
-        <!-- Page Content-->
-        <div class="container-fluid p-0">
-            <!-- About-->
-            <section class="resume-section" id="about">
-                <div class="resume-section-content">
-                    <h1 class="mb-0">
-                        Asif Al
-                        <span class="text-primary">Faisal</span>
-                    </h1>
-                    <div class="subheading mb-5">
-                        CIMMYT, Gulshan-2, Dhaka-1212, Bangladesh
-                        <a href="mailto:faisal.iit.du@gmail.com">faisal.iit.du@gmail.com</a>
-                    </div>
-                    <p class="lead mb-5">
-                        A data sciecne enthusiast who is curious about complex systems of food system and nature.
-                    </p>
-                    <div class="social-icons">
-                        <a class="social-icon" href="https://www.linkedin.com/in/asif2k9/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
-                        <a class="social-icon" href="https://github.com/AsifAlFaisal" target="_blank"><i class="fab fa-github"></i></a>
-                        <a class="social-icon" href="https://www.facebook.com/asif.2k9/" target="_blank"><i class="fab fa-facebook-f"></i></a>
-                    </div>
-                </div>
-            </section>
-            <hr class="m-0" />
-            <!-- Interests-->
-            <section class="resume-section" id="interests">
-                <div class="resume-section-content">
-                    <h2 class="mb-5">Interests</h2>
-                    <p>Deep Learning Research, Application of artificial intelligence (AI) in Remote Sensing and Life Science, Complex system analysis, ExplainableAI (XAI), Football</p>
-                </div>
-            </section>
-            <hr class="m-0" />
-            <!-- Publication-->
-            <section class="resume-section" id="publications">
-                <div class="resume-section-content">
-                    <h2 class="mb-5">Publications</h2>
-                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-                        <div class="flex-grow-1">
-                            <div class="resheading mb-3">
-                                ARRCC programme newsletter. “Innovative new crowd sourcing tool for gathering crop disease reports developed in South Asia” p. 2 09 2020. Available online: 
-                                <a href="https://www.metoffice.gov.uk/binaries/content/assets/metofficegovuk/pdf/business/international/arrcc_newsletter_0920.pdf" target="_blank">Click here.</a>
-                            </div>                   
-                        </div>
-                    </div>
-                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-                        <div class="flex-grow-1">
-                            <div class="resheading mb-3">M. A. Rahman A. Faisal T. Khanam M. Amjad and M. S. Siddik “Personality detection from text using convolutional neural network” pp. 1-6 05 2019. Available online: 
-                                <a href="https://ieeexplore.ieee.org/document/8934548" target="_blank">Click here.</a></div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <hr class="m-0" />
-            <!-- Education-->
-            <section class="resume-section" id="education">
-                <div class="resume-section-content">
-                    <h2 class="mb-5">Education</h2>
-                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-                        <div class="flex-grow-1">
-                            <h3 class="mb-0">IIT, University of Dhaka</h3>
-                            <div class="subheading mb-3">MASTERS</div>
-                            <div>Major: Information Technology</div>
-                            
-                        </div>
-                        <div class="flex-shrink-0"><span class="text-primary">January 2017 - October 2018</span></div>
-                    </div>
-                    <div class="d-flex flex-column flex-md-row justify-content-between">
-                        <div class="flex-grow-1">
-                            <h3 class="mb-0">Khulna University of Engineering & Technology</h3>
-                            <div class="subheading mb-3">BACHELOR OF SCIENCE</div>
-                            <div>Major: Electrical and Electronic Engineering</div>
-                        </div>
-                        <div class="flex-shrink-0"><span class="text-primary">April 2010 - November 2014</span></div>
-                    </div>
-                </div>
-            </section>
-            <hr class="m-0" />
-            <!-- Professional Experience-->
-            <section class="resume-section" id="prof-experience">
-                <div class="resume-section-content">
-                    <h2 class="mb-5">Professional Experience</h2>
-                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-                        <div class="flex-grow-1">
-                            <h3 class="mb-0">Data Analyst</h3>
-                            <div class="subheading mb-3">International Maize and Wheat Improvement Center (CIMMYT)</div>
-                            <p>Currently working and worked on the following projects and programmes:</p>
-                            <ul>
-                                <li>
-                                    <a href="https://www.cimmyt.org/projects/big-data-analytics-for-climate-smart-agricultural-practices-in-south-asia-big-data2-csa/" target="_blank">
-                                        Big Data Analytics for Climate-Smart Agriculture in South Asia (BigData2CSA) Project.
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="https://www.cimmyt.org/projects/asia-regional-resilience-to-a-changing-climate-arrcc/" target="_blank">
-                                        Asia Regional Resilience to a Changing Climate (ARRCC) Research Programme.
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="https://www.itc.nl/news/2020/7/699863/two-tailor-made-training-grants-for-itc" target="_blank">
-                                        Tailor-Made Training Plus (TMT+) for Bangladesh – An Orange Knowledge Programme.
-                                    </a>
-                                </li>
-                            </ul>                      
-                        </div>
-                        <div class="flex-shrink-0"><span class="text-primary">August 2019 - Present</span></div>
-                    </div>
-                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-                        <div class="flex-grow-1">
-                            <h3 class="mb-0">Engineer (Team Lead)</h3>
-                            <div class="subheading mb-3">edotco Bangladesh Co. Ltd.</div>
-                            <p>As a team lead my responsibilities were to, manage a team of four junior engineers and two network transmission engineers, 
-                                analyze daily network traffic data along with power consumption data and 
-                                generate statistical summary reports of power to performance ratio to aid in the decision making of upper managment.
-                                </p>
-                        </div>
-                        <div class="flex-shrink-0"><span class="text-primary">July 2017 - August 2019</span></div>
-                    </div>
-                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-                        <div class="flex-grow-1">
-                            <h3 class="mb-0">Engineer</h3>
-                            <div class="subheading mb-3">edotco Bangladesh Co. Ltd.</div>
-                            <p>My responsibilities as an Engineer were to, monitor telecom network of two major mobile network operators (GP & Robi) in Bangladesh, 
-                                provide countrywide remote network support on a roster basis and development of multiple python subroutine to automate multiple reports.                              
-                            </p>
-                        </div>
-                        <div class="flex-shrink-0"><span class="text-primary">August 2015 - June 2017</span></div>
-                    </div>
-                </div>
-            </section>
-            <hr class="m-0" />
-            <!-- Research Experience-->
-            <section class="resume-section" id="res-experience">
-                <div class="resume-section-content">
-                    <h2 class="mb-5">Research Experience</h2>
-                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-                        <div class="flex-grow-1">
-                            <div class="resheading mb-3">Application of Graph Neural Net for In silico Prediction of Physicochemical Properties of Chemicals</div>
-                            <p> The goal of this research is to develop QSAR/QSPR models for predicting physicochemical properties and environmental fate endpoints of chemicals for regulatory purposes. The steps of this research are,
-                                <ul>
-                                    <li>Compare Graph Neural Net (GNN) model performance with an existing work where they have used weighted K-Nearest Neighbors (kNN).</li>
-                                    <li>Train GNN models with multiple datasets to get more robust prediction of physicochemical properties.</li>
-                                </ul>                              
-                                Much of these works have already been completed and manuscript writing is ongoing.
-                                </p>                    
-                        </div>
-                    </div>
-                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-                        <div class="flex-grow-1">
-                            <div class="resheading mb-3">Big Data Analytics for Climate-Smart Agriculture in South Asia (BigData2CSA) Research Project</div>
-                            <p> In this research project,
-                                <ul>
-                                    <li>
-                                        Primary goal is to collect and interpret a wide variety of primary agronomic management and socioeconomic data from tens of thousands of smallholder rice and wheat farmers.
-                                    </li>
-                                    <li>After data collection, I developed a novel multivariate method for outlier detection and imputation.</li>
-                                    <li>Then, I developed R-scripts to extract secondary remote sensing and weather data in the geolocations of the survey and merged with primary data.</li>
-                                    <li>I am also heavily involved model interpretation part where we used explainableAI (XAI) methods like LIME, ALE (manuscript writing ongoing).</li>
-                                </ul>
-                            </p>                    
-                        </div>
-                    </div>
-                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-                        <div class="flex-grow-1">
-                            <div class="resheading mb-3">Asia Regional Resilience to a Changing Climate (ARRCC) Research Programme</div>
-                            <p> In this research project,
-                                <ul>
-                                    <li>
-                                        I developed a new crowd sourcing web-based tool that automatically harvests media reports on wheat rust disease occurrence and locations from the media in South Asia. These data then provide information to drive disease forecast models. 
-                                    </li>
-                                    <li>
-                                        Pilot testing of the tool has resulted in promising results, finding sources from where wheat rust diseases are appearing and spreading, significantly aiding meteorologically aided disease forecasting work.
-                                    </li>
-                                </ul>
-                            </p>                    
-                        </div>
-                    </div>
-                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-                        <div class="flex-grow-1">
-                            <div class="resheading mb-3">Personality Detection from Text using Convolutional Neural Network</div>
-                            <p> This was my MS thesis work that went into publication in an IEEE conference. 
-                                This was a Natural Language Processing (NLP) task where the goal was to develop a Convolutional Neural Net (CNN) for
-                                predicting personality traits (extroversion, agreeableness etc.) from written essays and compare how different activation functions influence prediction results.  
-                               
-                            </p>                    
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <hr class="m-0" />
-            <!-- Teaching Experience-->
-            <section class="resume-section" id="tea-experience">
-                <div class="resume-section-content">
-                    <h2 class="mb-5">Teaching Experience</h2>
-                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-                        <div class="flex-grow-1">
-                            <h3 class="mb-0">Tailor-Made Training Plus (TMT+): Orange Knowledge Programme</h3>
-                            <p>
-                                This is a training programme in collaboration with the Bangladesh Agricultural Research Institute (BARI), 
-                                the Faculty Geo-Information and Earth Observation Science (ITC) and CIMMYT. 
-                                There are four stages of this programme where each stage consists of multiple courses. 
-                                Among these courses, I got to work as a teaching assistant in following two courses. 
-                            </p>
-                            <div class="resheading mb-3">Introduction to Scientific Programming (eqv. to 3 ECTS credits)</div>
-                            <ul>
-                                <li>Basics of Python</li>
-                                <li>Algorithms</li>
-                                <li>Scientific Libraries</li>
-                                <li>Geocomputing</li>
-                            </ul>
-                            
-                            <div class="resheading mb-3">Geospatial Data Analysis & Spatiotemporal Machine Learning with Python (eqv. to 3 ECTS credits)</div>
-                            <ul>
-                                <li>Introduction to Geospatial data analysis</li>
-                                <li>Python Review</li>
-                                <li>Database</li>
-                                <li>Spatial Database</li>
-                                <li>Exploratory Data Analysis and Exploratory Spatial Data Analysis</li>
-                                <li>Introduction to Machine Learning</li>
-                                <li>Unsupervised Learning</li>
-                                <li>Decision Tree and Random Forest</li>
-                                <li>Artificial Neural Networks: Remote Sensing Image Classification</li>
-                            </ul> 
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <hr class="m-0" />
-            <!-- Skills-->
-            <section class="resume-section" id="skills">
-                <div class="resume-section-content">
-                    <h2 class="mb-5">Skills</h2>
-                    <div class="subheading mb-3">Programming Languages & Libraries</div>
-                    <ul>
-                        <li class="list-item">Python Programming</li>
-                        <li class="list-item">R Programming</li>
-                        <li class="list-item">ReactJS</li>
-                        <li class="list-item">SQL</li>
-                        <li class="list-item"><a href="https://scikit-learn.org/stable/" target="_blank">Scikit-learn</a></li>
-                        <li class="list-item"><a href="https://pytorch.org/" target="_blank">PyTorch</a></li>
-                        <li class="list-item"><a href="https://pytorch-geometric.readthedocs.io/en/latest/" target="_blank">PyTorch Geometric</a></li>
-                        <li class="list-item"><a href="https://networkx.org/" target="_blank">NetworkX</a></li>
-                        <li class="list-item"><a href="https://plotly.com/python/" target="_blank">Plotly</a></li>
-                        <li class="list-item"><a href="https://dash.plotly.com/introduction" target="_blank">Dash</a></li>
-                        <li class="list-item"><a href="https://streamlit.io/" target="_blank">Streamlit</a></li>
+        </section>
 
-                    </ul>
-                    <div class="subheading mb-3">Tools and Software</div>
-                    <ul class="fa-ul mb-0">
-                        <li>
-                            <span class="fa-li"><i class="fas fa-check"></i></span>
-                            <a href="https://earthengine.google.com/" target="_blank">Google Earth Engine</a>
-                        </li>
-                        <li>
-                            <span class="fa-li"><i class="fas fa-check"></i></span>
-                            <a href="https://www.qgis.org/en/site/" target="_blank">QGIS</a>
-                        </li>
-                        <li>
-                            <span class="fa-li"><i class="fas fa-check"></i></span>
-                            <a href="https://www.office.com/" target="_blank">Microsoft Office</a>
-                        </li>
-                    </ul>
+        <section id="contact" class="fade-in">
+            <div class="container">
+                <h3>Get In Touch</h3>
+                <p>Feel free to reach out for collaborations or opportunities.</p>
+                <div class="social-links">
+                    <a href="mailto:faisal.iit.du@gmail.com" class="social-btn">Email</a>
+                    <a href="https://www.linkedin.com/in/asif2k9/" target="_blank" class="social-btn">LinkedIn</a>
+                    <a href="https://github.com/AsifAlFaisal" target="_blank" class="social-btn">GitHub</a>
+                    <a href="https://scholar.google.com.mx/citations?user=7df2h0sAAAAJ&hl" target="_blank"
+                        class="social-btn">Scholar</a>
                 </div>
-            </section>
-            <hr class="m-0" />
-            <!-- Certification-->
-            <section class="resume-section" id="certification">
-                <div class="resume-section-content">
-                    <h2 class="mb-5">Training and Certifications</h2>
-                    <ul>
-                        <li>
-                            Deep Learning Specialization Series (5 Courses) (Available online: 
-                            <a href="https://www.coursera.org/account/accomplishments/specialization/certificate/DCBYAUTKVZRF" target="_blank">Click here</a>)
-                        </li>
-                        <li>
-                            Food Security and Sustainability - Crop Production (Available online: 
-                            <a href="https://courses.edx.org/certificates/4faacfeeb73f43f89783e102593467c8" target="_blank">Click here</a>)
-                        </li>
-                        <li>
-                            Introduction to Genomic Technologies (Available online: 
-                            <a href="https://www.coursera.org/account/accomplishments/certificate/3E426M7PZCT5" target="_blank">Click here</a>)
-                        </li>
-                        <li>
-                            Algorithms for DNA Sequencing (Available online: 
-                            <a href="https://www.coursera.org/account/accomplishments/certificate/X83ZAZU52S2N" target="_blank">Click here</a>)
-                        </li>
-                        <li>
-                            Data Science Foundations (Available online: 
-                            <a href="https://www.credly.com/badges/ba511dcf-ac40-43c4-854f-67ed8b332807" target="_blank">Click here</a>)
-                        </li>
-                        <li>
-                            Introduction to R (Available online: 
-                            <a href="https://www.datacamp.com/statement-of-accomplishment/course/24d98cff20c1539be9efd499efc5b526a09f0e43" target="_blank">Click here</a>)
-                        </li>
-                    </ul>
-                </div>
-            </section>
-            <!-- Awards-->
-            <section class="resume-section" id="awards">
-                <div class="resume-section-content">
-                    <h2 class="mb-5">Awards</h2>
-                    <ul class="fa-ul mb-0">
-                        <li>
-                            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
-                            Divisional Champion in 3rd Bangladesh Math Olympiad in 2005.
-                        </li>
-                        <li>
-                            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
-                            District Runner-up in National Science Fair for building a Low-Cost Microscope in 2008.
-                        </li>
-                    </ul>
-                </div>
-            </section>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Asif Al Faisal. All rights reserved.</p>
         </div>
-        <!-- Bootstrap core JS-->
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
-        <!-- Core theme JS-->
-        <script src="js/scripts.js"></script>
-    </body>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
 </html>
