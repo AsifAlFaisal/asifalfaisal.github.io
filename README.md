@@ -23,4 +23,4 @@ This is a minimalist, two-tone portfolio website generated from `cv.tex`.
     - Go to Repository **Settings**.
     - Scroll down to **Pages**.
     - Select `master` branch as the source.
-    - Click **Save**...
+    - Click **Save**
