@@ -15,14 +15,12 @@ This is a minimalist, two-tone portfolio website generated from `cv.tex`.
     git init
     git add .
     git commit -m "Initial commit"
-    git branch -M main
+    git branch -M master
     git remote add origin https://github.com/YOUR_USERNAME/my-portfolio.git
-    git push -u origin main
+    git push -u origin master
     ```
 3.  **Enable GitHub Pages**:
     - Go to Repository **Settings**.
     - Scroll down to **Pages**.
-    - Select `main` branch as the source.
+    - Select `master` branch as the source.
     - Click **Save**.
-
-Your site will be live at `https://YOUR_USERNAME.github.io/my-portfolio/`.
