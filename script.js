@@ -74,4 +74,25 @@ document.addEventListener('DOMContentLoaded', () => {
     sections.forEach(section => {
         observer.observe(section);
     });
+
+    // Tooltip Toggle for Mobile
+    const tooltips = document.querySelectorAll('.tooltip-container');
+    
+    tooltips.forEach(tooltip => {
+        tooltip.addEventListener('click', (e) => {
+            e.stopPropagation();
+            
+            // Close other tooltips
+            tooltips.forEach(t => {
+                if (t !== tooltip) t.classList.remove('active');
+            });
+            
+            tooltip.classList.toggle('active');
+        });
+    });
+
+    // Close tooltips when clicking anywhere else
+    document.addEventListener('click', () => {
+        tooltips.forEach(t => t.classList.remove('active'));
+    });
 });
